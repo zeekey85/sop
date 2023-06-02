@@ -50,3 +50,4 @@ subsubsection
 ^^^^^^^^^^^^^
 
 .. |image01| image:: media/SOP0001_I01.jpg
+    :width: 200 px
