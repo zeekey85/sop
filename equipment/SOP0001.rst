@@ -33,7 +33,7 @@ Procedure
 
     * - 1 
       - Turn on cart
-      - ..image:: media/SOP0001.I01.jpg
+      - |image01|
 
 1. Turn on cart
 2. Turn on laser cutter by pressing red knob and rotating clockwise. Key point: the knob will pop and release.
@@ -49,3 +49,4 @@ Next steps
 subsubsection
 ^^^^^^^^^^^^^
 
+.. |image01| image:: media/SOP0001_I01.jpg
