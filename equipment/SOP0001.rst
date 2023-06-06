@@ -6,6 +6,11 @@
 
 
 
+
+
+
+
+
 FS Laser startup
 ================
 
@@ -30,25 +35,32 @@ Procedure
 .. list-table:: HL40-5g laser cutter startup
     :widths: 5 25 50
     :header-rows: 0
+    :align: center
 
     * - 1 
-      - Turn on cart
-      - |image01|
+      - Turn on cart with the red toggle switch on the back of the cart, below the exhaust pipe
+      - .. image:: media/SOP0001_I01.jpg
+            :width: 200 px
     * - 2
       - Turn on laser cutter by pressing red knob and rotating clockwise. Key point: the knob will pop and release.
-      - |image02|
+      - .. image:: media/SOP0001_I02.jpg
+            :width: 200 px
     * - 3
       - Check water flow, water level. Key point: the laser cutter screen will show *NWtr* in the lower right hand corner if there a problem with flow, but you must manually check the water level.
-      - |image03|
+      - .. image:: media/SOP0001_I03.jpg
+            :width: 200 px
     * - 4
       - Turn on air filter. Key point: the filter powers on with turning on the cart; however you must press the red power button to start the fan.
-      - |image04|
+      - .. image:: media/SOP0001_I04.jpg
+            :width: 200 px
     * - 5
       - Open top panel and check for air flow below laser head with your hand.
-      - |image05|
+      - .. image:: media/SOP0001_I05.jpg
+            :width: 200 px
     * - 6
       - Check for presence of the honeycomb plate and remove any debris.
-      - |image06|
+      - .. image:: media/SOP0001_I06.jpg
+            :width: 200 px
 
 
 
@@ -59,15 +71,3 @@ Next steps
 subsubsection
 ^^^^^^^^^^^^^
 
-.. |image01| image:: media/SOP0001_I01.jpg
-    :width: 200 px
-.. |image02| image:: media/SOP0001_I02.jpg
-    :width: 200 px
-.. |image03| image:: media/SOP0001_I03.jpg
-    :width: 200 px
-.. |image04| image:: media/SOP0001_I04.jpg
-    :width: 200 px
-.. |image05| image:: media/SOP0001_I05.jpg
-    :width: 200 px
-.. |image06| image:: media/SOP0001_I06.jpg
-    :width: 200 px
