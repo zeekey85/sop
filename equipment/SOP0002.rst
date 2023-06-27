@@ -34,7 +34,7 @@ Procedure
 
     * - 1
       - If the printer is not on, turn it on using the switch on the back of the printer.
-        - .. image:: media/SOP0002_I01.jpg
+      - .. image:: media/SOP0002_I01.jpg
             :width: 200 px
     * - 2
       - Select the "Preheat" option on the front of the printer.
