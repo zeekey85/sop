@@ -57,9 +57,9 @@ Procedure
             :width: 200 px
     * - 7
       - Use the File menu to load your file to print. Note: In most cases you will not need to change the print settings in the software. If you do please return them to the standard ones before you finish.
-      - .. image:: medai/SOP0002_I06.jpg
+      - .. image:: media/SOP0002_I06.jpg
             :width: 200 px
     * - 8
       - Select print and your file will be prepared and printed over the USB cable. Note: If you have a really long print job, you may want to print it from an SD card inserted into the printer (which takes the possibility of a laptop shutdown out of the process). Instead of using the print button 
-      - .. image:: medai/SOP0002_I07.jpg
+      - .. image:: media/SOP0002_I07.jpg
             :width: 200 px    
