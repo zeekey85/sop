@@ -1,0 +1,65 @@
+:Authors:
+    Bill Ball
+
+:Version: 0.1-230627
+:File: SOP0002.rst
+
+
+
+Makerbot Replicator 2
+=====================
+
+Purpose
+-------
+
+How to print an object on the Makerbot Replicator 2.
+
+Context
+-------
+
+TODO
+
+Related Topics
+--------------
+
+* TODO (e.g. changing the print settings SOP)
+
+Procedure
+---------
+
+.. list-table:: Makerbot Replicator 2 printing
+    :widths: 5 25 50
+    :header-rows: 0
+    :align: center
+
+    * - 1
+      - If the printer is not on, turn it on using the switch on the back of the printer.
+        - .. image:: media/SOP0002_I01.jpg
+            :width: 200 px
+    * - 2
+      - Select the "Preheat" option on the front of the printer.
+      - .. image:: media/SOP0002_I02.jpg
+            :width: 200 px
+    * - 3
+      - Select "Start Preheat!" on the front of the printer.
+      - .. image:: media/SOP0002_I03.jpg
+            :width: 200 px
+    * - 4
+      - Log on to the laptop using the Maker account.
+      - 
+    * - 5
+      - Open the MakerBot Desktop software.
+      - .. image:: media/SOP0002_I04.jpg
+            :width: 200 px
+    * - 6
+      - Make sure the printer assigned is "Replicator 2 (USB) under the "Devices" menu at the top of MakerBot desktop.
+      - .. image:: media/SOP0002_I05.jpg
+            :width: 200 px
+    * - 7
+      - Use the File menu to load your file to print. Note: In most cases you will not need to change the print settings in the software. If you do please return them to the standard ones before you finish.
+      - .. image:: medai/SOP0002_I06.jpg
+            :width: 200 px
+    * - 8
+      - Select print and your file will be prepared and printed over the USB cable. Note: If you have a really long print job, you may want to print it from an SD card inserted into the printer (which takes the possibility of a laptop shutdown out of the process). Instead of using the print button 
+      - .. image:: medai/SOP0002_I07.jpg
+            :width: 200 px    
