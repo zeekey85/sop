@@ -5,12 +5,6 @@
 :File: SOP0001.rst
 
 
-
-
-
-
-
-
 FS Laser startup
 ================
 
