@@ -1,0 +1,92 @@
+:Authors:
+    BoB LeSuer
+
+:Version: 0.1-230530
+:File: SOP0003.rst
+
+
+FS Laser operation
+==================
+
+Purpose
+-------
+
+How to carve and engrave an object.
+
+Context
+-------
+
+The FS Laser behaves as a printer and graphics software such as Inkscape or Adobe Illustrator can "print" to the laser.
+
+**Note** the computer must have the Retina Engrave software and printer driver installed in order for this procedure to work properly.
+
+
+Related Topics
+--------------
+
+* Laser manual (need an IBiB repository), Link to safety information about laser?
+* SOP turning on the laser
+
+Procedure
+---------
+
+.. list-table:: HL40-5g laser cutter operation
+    :widths: 5 25 50
+    :header-rows: 0
+    :align: center
+
+    * - 1 
+      - Follow the SOP for powering on the laser. **Note** you should have the network cable attached to the computer before the laser is turned on.
+      - .. image:: media/missing.jpg
+            :width: 200 px
+    * - #
+      - Open the Retina Engrave software and establish a connection to the laser. From the *Hobby 20x12* menu select *Specify IP Address for Connection* and enter the IP address indicated on the laser. 
+      - .. image:: media/missing.jpg
+            :width: 200 px
+    * - 2
+      - Set the fill to Black for all objects to be raster engraved and none or white for all remaining objects. **Note** there is a bug in the printer driver that may come up if a path has both a fill and stroke in your vector graphics software. See the `Hints and Tips`_ section if this problem occurs for you.
+      - .. image:: media/missing.jpg
+            :width: 200 px
+    * - 3
+      - Set the stroke to the appropriate color (see `Hints and Tips`_ below) and the width should be as small as possible. This value is software dependent, but a value of 0.01 pt or less should work.
+      - .. image:: media/missing.jpg
+            :width: 200 px
+    * - #
+      - When the object has been satisfactorily prepared, print the object, setting the *Full Spectrum Engineering Driver* as the output device.
+      - .. image:: media/missing.jpg
+    * - #
+      - Set the appropriate power, speed, and number of passes for each colored vector in your object. See `Recommended Settings`_ for the current suggested settings for your material and thickness.
+      - .. image:: media/missing.jpg
+    * - #
+      - Place your material on the honeycomb platter in the laser cutter. 
+      - .. image:: media/missing.jpg
+    * - #
+      - Jog the laser head to where you want the upper left-hand corner of the object to be.
+      - .. image:: media/missing.jpg
+    * - #
+      - Adjust the height of the focusing head with the alignment block so that the laser is focused properly. *Note* presently, the focusing resolution is not much better than 1-2 mm, so spending time trying to be more precise is unlikely to be beneficial.
+      - .. image:: media/missing.jpg
+    * - #
+      - Confirm that the object will fit on the material using the object outline button(s). *Note* One button will cycle through all four corners of the object at once while the other will step through the corners one at a time.
+      - .. image:: media/missing.jpg
+    * - #
+      - With the cover of the laser cutter closed. Press the play button on the RetinaEngrave software. *Note* Make sure you are on the desired tab - either engraving or rastering.
+      - .. image:: media/missing.jpg
+    * - #
+      - When you are finished using the laser cutter. Follow the laser cutter shutdown SOP.
+      - .. image:: media/missing.jpg
+
+
+
+
+Hints and Tips
+--------------
+
+- **Stroke colors:** Using different stroke colors allows you to assign different speed and power settings to the paths to be rastered or engraved. This feature is typically beneficial when there are two types of paths: one for raster engraving and one for raster cutting.
+- **Engrave then raster:** To create a project with both engraving and raster cuts, set the color of all lines to be rastered to yellow #FFFF00 or cyan #00FFFF and any engraving to black #000000. In the RetinaEngrave software, adjust the engraving threshold to approximately 165 so that they colored lines are invisible to the engraving routine. Then, switch to the rastering tab and set number of passes for the black trace to zero. The remaining colors should be set to the desired power, speed and passes. 
+
+Recommended Settings
+--------------------
+
+- Basswood
+    - 3 mm thickness: Raster at power 80, speed 30, 1 pass
