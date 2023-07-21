@@ -29,6 +29,8 @@ None at the moment.
 
 - Since not everyone attends every event, they won't necessarily receive an invite to an album. On the other hand, it is possible that people who don't attend an event need to access the photos, so perhaps a group of people are always invited to a shared album.
 - It will quickly become annoying to organize the photo albums and remember which email contains the desired links to the album of interest.
+- Consider *not using google photos* and use Google drive instead. The advantage here is that we can easily share a link to a "pictures" folder and provide read/write access. Additionally subfolders can be made using the aforementioned naming convention. (Note: Google photos does not allow for nested albums, which would mimic this feature.) 
+    - We lose some of the pretty google photo interface (I use "pretty" loosely), for the benefit of only one shared link to remember.
 
 ## TODO
 
