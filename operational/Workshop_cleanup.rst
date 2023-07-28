@@ -26,7 +26,7 @@ Related Topics
 None at the moment.
 
 .. list-table:: Workshop cleanup
-    :widths: 5 25 50
+    :widths: 5 25
     :header-rows: 0
     :align: center
 
