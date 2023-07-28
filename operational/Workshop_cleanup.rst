@@ -40,4 +40,5 @@ None at the moment.
       - Straighten up chairs
     * - 5
       - Ensure that all equipment has been powered down.
-    * - Place any relevant paperwork (sign in sheets, waivers, etc) have been stored or placed near the filing box (to the right of the electronics workbench)
+    * - 6
+      - Place any relevant paperwork (sign in sheets, waivers, etc) have been stored or placed near the filing box (to the right of the electronics workbench)
